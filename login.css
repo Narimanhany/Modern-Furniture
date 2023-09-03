@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0px;
+    background-color:#2B4F60 ;
+    
+    
+   
+}
+.hero-image{
+    height:615px;
+    background-image: url(klc.jpeg);
+      background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+  }
+  .myform{
+   width: 500px;
+   height: 570px;
+   border: 1px solid #D1E8E4;
+   border-radius: 20px;
+   margin: auto;
+   margin-top: 20px;
+   box-shadow: 10px 10px 150px #D1E8E4;
+   
+  }
+  .hero-title{
+    text-align: center;
+    color: #D1E8E4;
+    font-size: 60px;
+    padding-top: 10px;
+    text-shadow: 10px 10px 10px #2B4F60;
+  }
+
+  .first{
+    width: 70%;
+    margin-left: 70px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 35px;
+    border: 2px solid black;
+    font-size: 20px;
+    background-color:#fff;
+
+    
+  }
+  .a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+  }
+  button:hover .a{
+color: #fff;
+  }
+  button{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 160px;
+    margin-left: 90px;
+    background-color: #fff;
+    color: #D1E8E4;
+    font-size: 18px;
+  }
+
+.button:hover{
+  background-color:#a1adb1;
+  
+}
+  .form-select{
+    width: 340px;
+    background-color:#fff;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 18px;
+    color: black;
+    border-radius: 20px;
+    border: 2px solid black;
+  }
+  @media (max-width:750px){
+    .myform{
+        width: 380px;
+    }
+    .button{
+        margin-left:70px;
+        width: 250px;
+    }
+    .first{
+        margin-left:62px;
+    }
+    .hero-title {
+        margin-left: 15px;
+    }
+    .hero-image{
+        width: 386px;
+        height:666px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+  }
+  
